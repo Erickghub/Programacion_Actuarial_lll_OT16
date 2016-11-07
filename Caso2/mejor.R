@@ -23,7 +23,7 @@ if(all(sapply(dir$State,function(x){x!=estado}))==FALSE){
     print(best)
 }else{ stop("Estado inválido")}
 }
-mejor("TX","falla")
+mejor("AL","peor")
 
 
 
